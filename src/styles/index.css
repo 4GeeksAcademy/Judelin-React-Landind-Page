@@ -183,11 +183,11 @@
         width: 100%;
         box-sizing: border-box;
         left: 0;
+        border-right: 1px solid rgba(218, 205, 205, 0.637);
+        border-left: 1px solid rgba(218, 205, 205, 0.637);
+        border-top: none;
+        border-bottom: none;
+        background: white;
         
-
-
-
-
-
     }
 }

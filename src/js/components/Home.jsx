@@ -5,6 +5,7 @@ import Card from "./Card";
 import Footer from "./Footer";
 
 
+
 //create your first component
 const Home = () => {
 	let infoJumbotron = [
@@ -40,7 +41,7 @@ const Home = () => {
 			buttonLabel: "Shop Recipe"
 
 		},
-	]
+	];
 	return (
 		<div>
 			<Navbar />
@@ -68,7 +69,6 @@ const Home = () => {
 				<Footer description="© 2025 JudeCin, Inc.  All rights reserved."/>
 			</div>
 		</div>
-
 	)
 };
 
