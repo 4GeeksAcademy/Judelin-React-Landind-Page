@@ -2,16 +2,18 @@ import React from "react";
 import Home from "./Home";
 
 const Card = (props) => {
-    let style = { width: "18rem" }
+    // let style = { width: "19.2rem" }
 
     return (
-        <div>
-            <div className="card " style={style}>
-                <img src={props.imageUrl} className="card-img-top" alt="phot" />
+        <div className="card-sect">
+            <div className="card ">
+                <img src={props.imageUrl} className="card-img-top" alt="image" />
                 <div className="card-body">
                     <h5 className="card-title">{props.title}</h5>
                     <p className="card-text">{props.description}</p>
-                    <a href="#" className="btn btn-primary">{props.buttonLabel}</a>
+                  <div className="anchor-card">
+                      <a href="#" className="btn btn-primary">{props.buttonLabel}</a>
+                  </div>
                 </div>
             </div>
         </div>

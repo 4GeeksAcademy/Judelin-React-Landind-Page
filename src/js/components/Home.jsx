@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Jumbotron from "./Jumbotron";
 import Card from "./Card";
+import Footer from "./Footer";
 
 
 //create your first component
@@ -63,10 +64,9 @@ const Home = () => {
 					})
 				}
 			</div>
-
-
-
-
+			<div className="footer">
+				<Footer description="© 2025 JudeCin, Inc.  All rights reserved."/>
+			</div>
 		</div>
 
 	)
